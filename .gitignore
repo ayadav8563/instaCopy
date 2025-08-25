@@ -2,6 +2,14 @@
 #
 .DS_Store
 
+# Ignore iOS and Android build folders
+ios/build/
+android/build/
+
+ios/*.lock
+
+*.lock
+
 # Xcode
 #
 build/
